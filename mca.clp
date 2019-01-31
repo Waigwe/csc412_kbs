@@ -26,8 +26,8 @@
   (UniqueSymptoms "1")
   =>
   (printout t "Diagnosis: Japanese Encephalitis" crlf)
-  (printout t "Treatment: " crlf)
-  (printout t "Recommendation: " crlf)
+  (printout t "Treatment:No specific treatment exists currently.  " crlf)
+  (printout t "Recommendation:Supportive care is recommended. " crlf)
 )
 
 (defrule Dirofilariasis
@@ -58,8 +58,8 @@
   (UniqueSymptoms "2")
   =>
   (printout t "Diagnosis: Dirofilariasis" crlf)
-  (printout t "Treatment: " crlf)
-  (printout t "Recommendation: " crlf)
+  (printout t "Treatment: Treatment with tetracycline antibiotics has been reported to damage Dirofilaria immitis, often causing death of adult worms" crlf)
+  (printout t "Recommendation: "If lung granulomas and nodules are present under the skin they should be surgically removed  crlf)
 )
 
 (defrule Tularemia
@@ -90,8 +90,8 @@
   (UniqueSymptoms "3")
   =>
   (printout t "Diagnosis: Tularemia" crlf)
-  (printout t "Treatment: " crlf)
-  (printout t "Recommendation: " crlf)
+  (printout t "Treatment:Administer antibiotics depending on what would work best for the patient. " crlf)
+  (printout t "Recommendation: Recommended antibiotics include treptomycin, gentamicin, doxycycline or and ciprofloxacin " crlf)
 )
 
 (defrule Venezuelan-Equine-Encephalitis
